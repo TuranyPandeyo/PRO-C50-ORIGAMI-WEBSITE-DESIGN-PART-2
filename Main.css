@@ -1,0 +1,28 @@
+body{
+    background-image: url("background.jpg");
+    background-size:cover ;
+}
+h1 {
+    color: rgb(143, 0, 0);
+    margin-left: 30px;
+    margin-top: 30px;
+    border:black;
+}
+
+.header{
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+p,h2{
+    text-align:left;
+    font-size: large;
+}
+
